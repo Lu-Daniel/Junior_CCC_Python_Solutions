@@ -6,9 +6,9 @@ num2 = int(input())
 num3 = int(input())
 num4 = int(input())
 
-if (num1 == 8 or num1 == 9) and (num4 == 8 or num4 == 9) and (num2 == num3):
-    print('ignore')
-
-
+if num1 == 8 or num1 == 9:
+    if num4 == 8 or num4 == 9:
+        if num2 == num3:
+            print('ignore')
 else:
     print('answer')
