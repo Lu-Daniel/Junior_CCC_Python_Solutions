@@ -1,1 +1,0 @@
-# Junior_CCC_Python_Solutions
